@@ -12,6 +12,7 @@ htmlcov/
 .env
 .vscode/
 /AGENTS.md
+/Testes
 
 # Relatórios e arquivos temporários
 *.log
