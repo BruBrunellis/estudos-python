@@ -1,10 +1,5 @@
-segundos = 3665
+lista = ["  ANA", "bruno  ", " CaRLa "]
 
-horas = segundos // 3600
-print(horas)
-
-minutos = (segundos % 3600) // 60
-print(minutos)
-
-segundos = (segundos % 3600) % 60
-print(segundos)
+for item in lista:
+    item_formatado = item.strip().lower().title()
+    print(item_formatado)
