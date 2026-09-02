@@ -1,6 +1,7 @@
-ano = int(input("Informe um ano: "))
+while True:
+    idade = int(input("Informe a idade: "))
+    if 0 <= idade <= 120:
+        break
+    print("Idade fora do range, tente novamente.")
 
-if ((ano % 4) == 0) and ((ano % 100) != 0) or ((ano % 400) == 0):
-    print("Ano é bissexto.\n")
-else:
-    print("Ano não é bissexto.\n")
+print(f"Idade correta registrada: {idade}\n")
