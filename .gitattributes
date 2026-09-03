@@ -1,0 +1,3 @@
+# Mantenha os scripts Python com CRLF no diretório de trabalho.
+# O Git continua normalizando o conteúdo no repositório internamente.
+*.py text eol=crlf
